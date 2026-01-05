@@ -1,0 +1,7 @@
+# Node/Cypress
+node_modules/
+.npm-cache/
+.cypress-cache/
+cypress/videos/
+cypress/screenshots/
+cypress/results/

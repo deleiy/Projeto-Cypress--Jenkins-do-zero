@@ -1,0 +1,13 @@
+{
+  "name": "novo-projeto-cypress-ci",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run --browser electron --headless",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "mocha-junit-reporter": "^2.0.2"
+  }
+}
