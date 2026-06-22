@@ -1,8 +1,7 @@
-// Spec de exemplo para validar o setup no CI
-
 describe('Exemplo CI', () => {
-  it('deve visitar a página baseUrl e possuir um título', () => {
-    cy.visit('/');
-    cy.title().should('be.a', 'string');
-  });
-});
+  it('deve acessar o site do Cypress', () => {
+    cy.visit('https://example.cypress.io')
+
+    cy.title().should('contain', 'Cypress')
+  })
+})
